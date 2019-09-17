@@ -1,8 +1,10 @@
 "use strict";
 
 $(document).ready(() =>{
-    $("#DealerId").select2({
-        placeholder: "Enter Dealer Name",
-        allowClear: true
+    $("#DealerId, #SourceId, #SourceTypeId, #LeadDesignationId, #RouteInformationId, #CrmId, #LeadTypeId").select2({
+        placeholder: "Search..",
+        allowClear: true,
     });
+
+    
 });
